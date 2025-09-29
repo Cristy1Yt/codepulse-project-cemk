@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="CodePulse Studio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:wght@300..900&family=Yuji+Mai&display=swap"
+      rel="stylesheet"
+    />
+    <title>CodePulse-Privacy Policy</title>
+
+    <style>header {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+  /* padding: 10px 20px; */
+  background: linear-gradient(#000, #101010);
+
+  transition: background-color 0.3s ease, background 0.3s ease; /* Smooth transition */
+}
+
+.header.scrolled {
+  background: #343a40; /* Light grey background */
+}
+
+.logo-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1100;
+}
+
+.header-ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-right: 40px;
+  z-index: 1100;
+}
+
+.header-li {
+  list-style: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  color: #fff;
+  z-index: 1100;
+}
+
+.header-li a {
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn-hire {
+  background: #002366;
+  padding: 10px 20px;
+  border-radius: 11px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  z-index: 1000;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-hire a {
+  color: #fff;
+}
+
+.btn-hire:hover {
+  background-position: right center;
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.privacy-section {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #333;
+}
+
+h1 {
+  color: #2c3e50;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 10px;
+}
+h2 {
+  color: #2980b9;
+  margin-top: 25px;
+}
+ul,
+ol {
+  padding-left: 25px;
+}
+li {
+  margin-bottom: 8px;
+}
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+strong {
+  color: #2c3e50;
+}
+.contact-info {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.section {
+  margin-bottom: 30px;
+}
+.highlight {
+  background-color: #f0f7fb;
+  border-left: 5px solid #3498db;
+  padding: 10px 15px;
+  margin: 20px 0;
+}
+
+#section-footer {
+  padding: 4rem 2rem; /* Add padding for spacing */
+  background: linear-gradient(
+    to right,
+    #000000,
+    #0a0a0a,
+    #1a1a1a
+  ); /* Dark gradient */
+  color: #ffffff; /* White text for contrast */
+}
+
+.container-footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2.5rem;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.footer-logo img {
+  width: 150px;
+  height: auto;
+}
+
+.footer-logo .copyright {
+  font-size: 14px;
+  color: #767676; /* Subtle gray for copyright text */
+}
+
+.footer-contacts,
+.footer-resources {
+  flex: 1;
+}
+
+.footer-contacts h3,
+.footer-resources h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer-li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #74c0fc; /* Light blue for links */
+  transition: color 0.3s ease;
+}
+
+.footer-li a:hover {
+  color: #ffffff; /* Change to white on hover */
+}
+
+.footer-li span {
+  margin-right: 0.5rem;
+  color: #74c0fc; /* Icon color */
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.social-links a {
+  color: #74c0fc;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #ffffff;
+}
+</style>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="logo-box">
+        <a href="/project/src/pages/Home/index.html"
+          ><img
+            class="logo"
+            src="/project/src/pages/Home/img/logo-2.png"
+            alt="Pulse Logo"
+            height="120px"
+            width="120px"
+        /></a>
+      </div>
+
+      <ul class="header-ul">
+        <li class="header-li li-icon">
+          <a href="/project/src/pages/Home/index.html">Services</a>
+        </li>
+        <li class="header-li btn-hire"><a href="/project/src/pages/Home/index.html">Hire Young Talents</a></li>
+        <li class="header-li"><a href="/project/src/pages/Home/index.html">Internship</a></li>
+        <li class="header-li"><a href="#section-footer">Contact</a></li>
+      </ul>
+    </header>
+    <main>
+      <section class="privacy-section">
+        <h2>1. Information We Collect</h2>
+        <p>
+          We collect personal data you provide voluntarily (such as name, email
+          address, company details) when you contact us, request a quote,
+          subscribe to our services, or interact with our platform.
+        </p>
+        <p>
+          We may also automatically collect data through cookies or analytics
+          tools, including your IP address, browser type, device information,
+          and pages visited.
+        </p>
+
+        <div class="section">
+          <h2>2. Purpose of Data Collection</h2>
+          <ul>
+            <li>To communicate with you and respond to inquiries</li>
+            <li>To provide and improve our IT services</li>
+            <li>
+              To ensure security, prevent fraud, and comply with legal
+              obligations
+            </li>
+            <li>
+              To send promotional messages and updates (only if you've agreed)
+            </li>
+            <li>To analyze usage patterns and improve user experience</li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <h2>3. Legal Grounds for Processing</h2>
+          <p>We process personal data based on one or more of the following:</p>
+          <ul>
+            <li>Your consent</li>
+            <li>Performance of a contract</li>
+            <li>Compliance with legal obligations</li>
+            <li>
+              Our legitimate interest in providing and securing our services
+            </li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <h2>4. Data Storage and Security</h2>
+          <p>
+            Your data is stored securely on servers located in the EU or trusted
+            third-party providers compliant with GDPR standards. We use
+            encryption, access control, firewalls, and regular audits to protect
+            your data.
+          </p>
+        </div>
+
+        <div class="section">
+          <h2>5. Sharing of Personal Data</h2>
+          <p>
+            We do not sell your personal data. However, we may share it with:
+          </p>
+          <ul>
+            <li>
+              Trusted service providers (e.g. email services, cloud hosting)
+            </li>
+            <li>Authorities, if legally required</li>
+            <li>
+              Business partners involved in delivering the services (e.g.,
+              Devopcity for domain/email services)
+            </li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <h2>6. Your Rights</h2>
+          <div class="highlight">
+            <p>As a data subject, you have the right to:</p>
+            <ul>
+              <li>Access your personal data</li>
+              <li>Request correction or deletion</li>
+              <li>Withdraw consent at any time</li>
+              <li>Object to data processing or request data portability</li>
+              <li>
+                Lodge a complaint with the Romanian Data Protection Authority
+                (ANSPDCP)
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2>7. Data Retention</h2>
+          <p>
+            We retain personal data only as long as necessary to fulfill the
+            purposes outlined in this policy or to comply with legal
+            requirements.
+          </p>
+        </div>
+
+        <div class="section">
+          <h2>8. Third-Party Links</h2>
+          <p>
+            Our website may contain links to external websites. We are not
+            responsible for the privacy practices or content of those sites. We
+            recommend you read their privacy policies.
+          </p>
+        </div>
+
+        <div class="section">
+          <h2>9. Policy Updates</h2>
+          <p>
+            This Privacy Policy may be updated periodically. The latest version
+            will always be available on our website. If significant changes are
+            made, we will notify you.
+          </p>
+        </div>
+
+        <div class="section">
+          <h2>10. Contact</h2>
+          <p>
+            If you have questions about this policy or your personal data,
+            contact us at:
+          </p>
+          <div class="contact-info">
+            <ul>
+              <li>
+                Email:
+                <a href="mailto:codepulse.srl@gmail.com"
+                  >codepulse.srl@gmail.com</a
+                >
+              </li>
+              <li>PreotNicolae 8, Mera, Vrancea , 627200 ,Romania</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-footer" id="section-footer">
+        <div class="container-footer">
+          <!-- Logo & Copyright -->
+          <div class="footer-logo">
+            <img src="/project/src/pages/Home/img/logo-2.png" alt="Logo" />
+            <p class="copyright">
+              Copyright &copy; <span class="year">2027</span> by CodePulse, Inc.
+              All rights reserved.
+            </p>
+
+            <p class="copyright">
+              Design made by Spînu Cristian-Viorel
+              ,email:spinucristian@yahoo.com <span class="year-2">2027</span>,
+              Inc. All rights reserved.
+            </p>
+          </div>
+
+          <!-- Contact Information -->
+          <div class="footer-contacts" id="contacts">
+            <h3>Contact Us</h3>
+            <ul class="footer-list">
+              <li class="footer-li">
+                <a href="#"
+                  ><span><ion-icon name="call-outline"></ion-icon></span>
+                  0761274288</a
+                >
+              </li>
+              <li class="footer-li">
+                <a href="#"
+                  ><span><ion-icon name="mail-outline"></ion-icon></span>
+                  contact.codepulse001@gmail.com</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Resources -->
+          <div class="footer-resources">
+            <h3>Useful</h3>
+            <ul class="footer-list">
+              <li class="footer-li">
+                <a href="/project/src/pages/Home/index.html">Services</a>
+              </li>
+              <li class="footer-li">
+                <a href="/project/src/pages/Home/cookie.html">Cookie policy</a>
+              </li>
+              <li class="footer-li"><a href="/project/src/pages/terms/terms.html">Terms and Conditions</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+  </body>
+</html>
